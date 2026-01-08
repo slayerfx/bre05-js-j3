@@ -61,13 +61,14 @@ function grid5() {
 }
 
 function grid6() {
-  let grid = document.querySelectorAll(".grid");
-  grid[5].style.background = `
+  let grids = document.querySelectorAll(".grid");
+  grids[5].style.background = `
     linear-gradient(to bottom, #427cf5, #956caf) 0 0 / 100% 33.33% no-repeat,
     linear-gradient(to bottom, #4cee7e, #efec4f) 0 50% / 100% 33.33% no-repeat,
     linear-gradient(to bottom, #eca45c, #e85b69) 0 100% / 100% 33.33% no-repeat
   `;
 }
+
 grid1();
 grid2();
 grid3();
